@@ -1,0 +1,249 @@
+    .graybg {
+        background-color: #f0f2f4;
+        border-radius: 22px;
+        width: 200px;
+        text-align: right;
+        height: 41px;
+        margin-top: 10px;
+    }
+    .spansearch {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 178px;
+
+    }
+    #eightDiv .firstDiv {
+        margin-top:10%;
+    }
+    .submitImg {
+        position: relative;
+        left: -13px;
+        top: 5px;
+    }
+    #keyword_field {
+        border:none;
+        top: -10px;
+    }
+    .notification {
+        background-color: #9c39d6;
+        border-radius: 8px;
+        width: 21px;
+        padding: 4px;
+    }
+    .notification:hover {
+        background-color: #9c39d6 !important;
+        border-radius: 8px;
+        width: 21px;
+        padding: 4px;
+    }
+    .btn-secondary {
+        background-color: #fff;
+        border-color: #fff;
+        color: #000;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+        background-color: #fff;
+        border-color: #fff;
+        color: #000;
+    }
+    .margin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bannerholder {
+        background-image: url('images/banner1.jpg');
+    }
+
+    .bannerholder2 {
+        background-image: url('images/fresh.jpg');
+    }
+
+    .myjumbotron {
+        background-color: transparent;
+    }
+    .btn-violet {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #9c39d6;
+        border: none;
+    }
+    .btn-violet:hover {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #ab69d2;
+        border: none;
+    }
+    .first {
+        border-bottom: 1px solid #c0c0c0;
+    }
+    .menubar {
+        list-style-type: none;
+    }
+    .menubar li {
+        display: inline;
+        padding: 20px 40px;
+        color: #c0c0c0;
+    }
+
+    .menubar22 li {
+        display: inline;
+        color: grey;
+    }
+    .menubar li:hover {
+        color: #000;
+        border-bottom: 3px solid #ab69d2;
+    }
+
+      .menubar22 li:hover {
+        color: #A8A3AA;
+      /*  border-bottom: 3px solid grey;*/
+    }
+
+  
+
+    li.active {
+        border-bottom: 3px solid #ab69d2;
+        color: #000;
+    }
+
+        li.active22 {
+        border-bottom: 3px solid grey;
+        color: grey;
+    }
+
+    a {
+        color: black;
+    }
+    a:visited {
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+    .cardbodyimage {
+    margin-left: 45px;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    padding-top: 24px;
+    }
+    .buttonKo {
+        margin-top: 30px;
+        border: 3px solid #9c39d6;
+        color: #9c39d6;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #fff;
+    }
+    .deals {
+        padding: 20px;
+    }
+    .violet {
+        color: #ab69d2;
+    }
+    span.deal {
+        background-color: #f65653;
+        width: 21%;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        margin: 10px;
+        position: absolute;
+    }
+    span.deal:hover {
+        background-color: #fbafae;
+    }
+    .dropdown-menu.show {
+        width: 500px;
+    }
+    .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    
+}
+.card{
+    width: 254px;
+    height: 383px;
+}
+.graybg1{
+    background-color: #f0f2f4;
+    border-radius: 22px;
+    width: 207px;
+    text-align: right;
+    height: 41px;
+    margin-top: 10px;
+}
+.btnfooter{
+    background-color: #8711AF;
+    border-color: none;
+    color: white;
+}
+
+.btnlogin{
+     width: 273px;
+    background-color: #8711AF;
+    color: white;
+    padding: 5px;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+
+.inputLogin{
+    width: 480px;
+    border-radius: 14px;
+}
+
+.btnSignUp{
+    width: 273px;
+    background-color: white;
+    color: #8711AF;
+    padding: 5px;
+    margin-left: 18px;
+    margin-top: 30px;
+    border-color: #8711AF;
+}
+
+.badge2{
+    background-color: #101010;
+    border-radius: 25px;
+    width: 27px;
+    padding: 4px;
+}
+
+.badge3{
+    
+    background-color: #f7f1f1;
+    border-radius: 25px;
+    width: 27px;
+    padding: 4px;
+    border-color: #f7f1f1;
+}
+.shopInput{
+    border-radius: 20px;
+    width: 42px;
+    background-color: #DDE0E2;
+}
+
+.shopButton{
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    width: 25px;
+}
+.shopButton2{
+     border-radius: 25px;
+    border: none;
+    background-color: grey;
+    width: 25px;
+}
+.classInline  {
+    display: inline;
+}
