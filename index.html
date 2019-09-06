@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,144 +11,142 @@
     <link rel="stylesheet" href="styles.css">
     <title>PICK PAY</title>
 </head>
-<body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top first">
-                <a class="navbar-brand" href="#" style="margin-left: 408px"><img src="images/logo.png" ></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top first">
+        <a class="navbar-brand" href="#" style="margin-left: 408px"><img src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                    <span class="spansearch">Search &nbsp &nbsp</span>
-                    <li class="nav-item dropdown graybg">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <span class="spansearch">Search &nbsp &nbsp</span>
+                <li class="nav-item dropdown graybg">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         All
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    &nbsp
-                    &nbsp
-                    &nbsp
-                    <li>
-                        <div class="form-group">
+                    </div>
+                </li>
+                &nbsp &nbsp &nbsp
+                <li>
+                    <div class="form-group">
                         <div class="">
                             <div class="input-group graybg">
-                            <input type="text" class="form-control graybg1" name="keyword_field" id="keyword_field"/>
-                            <span class="input-group-addon">
+                                <input type="text" class="form-control graybg1" name="keyword_field" id="keyword_field" />
+                                <span class="input-group-addon">
                                 <img src="images/magni.png" width="20" height="20" class="submitImg" />
                             </span>
+                            </div>
                         </div>
-                        </div>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown" style="margin-left: 185px;margin-top: 17px;">
-                    
+                    </div>
+                </li>
+                <li class="nav-item dropdown" style="margin-left: 185px;margin-top: 17px;">
+
                     <a href="#" class="badge badge-primary notification classInline" id="orderCount">0</a>
                     <a class="nav-link dropdown-toggle classInline" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: 13px">
                         My Cart
                     </a>
-                    
+
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <h5>Shopping Cart</h5>
                         <div class="nocontent">No Items yet</div>
                         <div class="row" id="cartContent">
-                            
+
                         </div>
                     </div>
-                    </li>
-                    </ul>
-                </div>
-                </nav>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container" style="margin-top:5%">
         <div class="row">
             <div class="col-xs-12 col-sm-10 col-md-10" style="display: inherit;">
                 <div class="dropdown1 margin">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Shop by what you need
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
-                </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
                 </div>
                 <div class="dropdown2 margin">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Categories
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
-                </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
                 </div>
                 <div class="dropdown3 margin">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Today's Deals
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
-                </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
                 </div>
                 <div class="dropdown4 margin">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     My Shopping List
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu4">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
-                </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
                 </div>
 
             </div>
             <div class="col-xs-12 col-sm-2 col-md-2">
-<img src="images/user.png" alt="" width="20px" height="20px">Login | Signup
+                <img src="images/user.png" alt="" width="20px" height="20px">Login | Signup
             </div>
         </div>
     </div>
     <div class="col-12 bannerholder">
         <div class="container">
             <div class="jumbotron myjumbotron">
-            <h1 class="display-4"><strong>We deliver it fresh right</strong></h1>
-            <h1>at your door.</h1>    
-            <p class="lead"><strong>Get a FREE same-day delivery for every Php 3,000 worth of products.</strong></p>
-            <!-- <hr class="my-4"> -->
-            <p class="lead">
-                <a class="btn btn-primary btn-lg btn-violet" href="#" role="button">ORDER NOW</a>
-            </p>
+                <h1 class="display-4"><strong>We deliver it fresh right</strong></h1>
+                <h1>at your door.</h1>
+                <p class="lead"><strong>Get a FREE same-day delivery for every Php 3,000 worth of products.</strong></p>
+                <!-- <hr class="my-4"> -->
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg btn-violet" href="#" role="button">ORDER NOW</a>
+                </p>
             </div>
         </div>
     </div>
-   <div class="container">
-       <ul class="menubar">
-           <li class="active">
-               <a href="#eightDiv">Today's Deals</a>
-           </li>
-           <li>
+    <div class="container">
+        <ul class="menubar">
+            <li class="active">
+                <a href="#eightDiv">Today's Deals</a>
+            </li>
+            <li>
                 <a href="#">Holiday Guide</a>
-           </li>
-           <li>
+            </li>
+            <li>
                 <a href="#">Departments</a>
-           </li>
-           <li>
+            </li>
+            <li>
                 <a href="#">Imported goods</a>
-           </li>
-       </ul>
-   </div> 
+            </li>
+        </ul>
+    </div>
 
-   <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-10">
-                    <h1 style="padding-top: 30px;">Popular categories</h1>
-                    <p>From phones to fruits, these are the trending categories for today.</p>
+                <h1 style="padding-top: 30px;">Popular categories</h1>
+                <p>From phones to fruits, these are the trending categories for today.</p>
             </div>
             <div class="col-2">
                 <button class="buttonKo">
@@ -158,75 +157,75 @@
 
         <div class="row">
             <div class="col-sm-6 col-xm-12 col-md-3">
-            <div class="card">
-                <div class="card-body" style="height: 373px">
-                <h1 class="card-title">Holiday gifts</h1>
-                <p class="card-text">Buy your loved ones what's on their wishlists.</p>
-                <img class="cardbodyimage" src="images/gift1.png" alt="">
+                <div class="card">
+                    <div class="card-body" style="height: 373px">
+                        <h1 class="card-title">Holiday gifts</h1>
+                        <p class="card-text">Buy your loved ones what's on their wishlists.</p>
+                        <img class="cardbodyimage" src="images/gift1.png" alt="">
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="col-sm-6 col-xm-12 col-md-3">
-            <div class="card">
-                <div class="card-body">
-                <h1 class="card-title">Groceries</h1>
-                <p class="card-text">Stack up your fridge with your favorites.</p>
-                <br>
-                <br>
-                <img class="cardbodyimage" src="images/groceries1.png" alt="">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Groceries</h1>
+                        <p class="card-text">Stack up your fridge with your favorites.</p>
+                        <br>
+                        <br>
+                        <img class="cardbodyimage" src="images/groceries1.png" alt="">
+                    </div>
                 </div>
-            </div>
             </div>
 
             <div class="col-sm-6 col-xm-12 col-md-3">
-            <div class="card">
-                <div class="card-body">
-                <h1 class="card-title">Electronics</h1>
-                <p class="card-text">The latest gadgets and electronics.</p>
-                 <br>
-                <br>
-                <img class="cardbodyimage" src="images/Electronics1.png" alt="">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Electronics</h1>
+                        <p class="card-text">The latest gadgets and electronics.</p>
+                        <br>
+                        <br>
+                        <img class="cardbodyimage" src="images/Electronics1.png" alt="">
+                    </div>
                 </div>
-            </div>
             </div>
 
             <div class="col-sm-6 col-xm-12 col-md-3">
-            <div class="card">
-                <div class="card-body">
-                <h2 class="card-title">Household essentials</h2>
-                <p class="card-text">From soaps to brooms.</p>
-                <img class="cardbodyimage" src="images/household1.png" alt="">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Household essentials</h2>
+                        <p class="card-text">From soaps to brooms.</p>
+                        <img class="cardbodyimage" src="images/household1.png" alt="">
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
-   </div>
-   <div class="content" style="background-color: #DCE1E5; margin-top: 40px;">
+    </div>
+    <div class="content" style="background-color: #DCE1E5; margin-top: 40px;">
         <div class="container">
-           <span style="margin-top: 50px">
+            <span style="margin-top: 50px">
             <br>
             <h2>Deals & Promos</h2></span>
             <div class="row">
-                    <div class="col-6 deals">
-                        <!-- <div class="card"> -->
-                           <!--  <span>Holiday Gift Guide</span> -->
-                        <img style="padding-bottom: 20px;"  src="images/promo.png" alt="deals">
-                        <!-- </div> -->
-                    </div>
-                    <div class="col-6 deals">
-                        <!-- <div class="card">Get ready. -->
-                        <img style="padding-bottom: 20px;" src="images/promo1.png" alt="promo">
-                        </div>
-                    </div>
+                <div class="col-6 deals">
+                    <!-- <div class="card"> -->
+                    <!--  <span>Holiday Gift Guide</span> -->
+                    <img style="padding-bottom: 20px;" src="images/promo.png" alt="deals">
+                    <!-- </div> -->
+                </div>
+                <div class="col-6 deals">
+                    <!-- <div class="card">Get ready. -->
+                    <img style="padding-bottom: 20px;" src="images/promo1.png" alt="promo">
+                </div>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-10">
-                    <h1 style="padding-top: 30px;">Trending Right now</h1>
-                    <p>Here are the products people are buying right now.</p>
+                <h1 style="padding-top: 30px;">Trending Right now</h1>
+                <p>Here are the products people are buying right now.</p>
             </div>
             <div class="col-2">
                 <button class="buttonKo">
@@ -237,87 +236,87 @@
         <div class="row">
             <div class="col-3">
                 <a href="#ex1" rel="modal:open">
-                <div class="card">
-                    <span class="deal">DEAL</span>
-                    <img class="card-img-top" src="images/headphone.png" alt="Card headphone">
-                    <div class="card-body">
-                        <p class="card-text">
-                            JBL headphone
-                        </p>
-                        <span><img src="images/heart.png" alt="" width="20px" height="20px"> 142 people liked this</span>
-                        <p class="violet font-weight-bold">21% off</p>
-                        <p class="text-black font-weight-bold">P 3232.00</p>
+                    <div class="card">
+                        <span class="deal">DEAL</span>
+                        <img class="card-img-top" src="images/headphone.png" alt="Card headphone">
+                        <div class="card-body">
+                            <p class="card-text">
+                                JBL headphone
+                            </p>
+                            <span><img src="images/heart.png" alt="" width="20px" height="20px"> 142 people liked this</span>
+                            <p class="violet font-weight-bold">21% off</p>
+                            <p class="text-black font-weight-bold">P 3232.00</p>
+                        </div>
                     </div>
-                </div>
                 </a>
             </div>
             <div class="col-3">
-                    <a href="#ex2" rel="modal:open">
-                <div class="card">
-                    <img class="card-img-top" src="images/slingbag1.png" alt="Card slingbag">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Sling Bag
-                        </p>
-                        <span><img src="images/heart.png" alt="" width="20px" height="20px"> 23 people liked this</span>
-                        <!-- <p class="violet font-weight-bold">21% off</p> -->
-                        <p class="text-black font-weight-bold">P 320.00</p>
+                <a href="#ex2" rel="modal:open">
+                    <div class="card">
+                        <img class="card-img-top" src="images/slingbag1.png" alt="Card slingbag">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Sling Bag
+                            </p>
+                            <span><img src="images/heart.png" alt="" width="20px" height="20px"> 23 people liked this</span>
+                            <!-- <p class="violet font-weight-bold">21% off</p> -->
+                            <p class="text-black font-weight-bold">P 320.00</p>
+                        </div>
                     </div>
-                </div>
                 </a>
             </div>
             <div class="col-3">
-                    <a href="#ex3" rel="modal:open">
-                <div class="card">
-                    <span class="deal">DEAL</span>
-                    <img class="card-img-top" src="images/camera2.png" alt="Card camera">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Canon Camera
-                        </p>
-                        <span><img src="images/heart.png" alt="" width="20px" height="20px"> 9 people liked this</span>
-                        <p class="violet font-weight-bold">10% off</p>
-                        <p class="text-black font-weight-bold">P 13,232.00</p>
+                <a href="#ex3" rel="modal:open">
+                    <div class="card">
+                        <span class="deal">DEAL</span>
+                        <img class="card-img-top" src="images/camera2.png" alt="Card camera">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Canon Camera
+                            </p>
+                            <span><img src="images/heart.png" alt="" width="20px" height="20px"> 9 people liked this</span>
+                            <p class="violet font-weight-bold">10% off</p>
+                            <p class="text-black font-weight-bold">P 13,232.00</p>
+                        </div>
                     </div>
-                </div>
                 </a>
             </div>
             <div class="col-3">
-                    <a href="#ex4" rel="modal:open">
-                <div class="card">
-                    <img class="card-img-top" src="images/smartphone.png" alt="Card smartphone">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Smart Phone
-                        </p>
-                        <!-- <p class="violet font-weight-bold">21% off</p> -->
-                        <p class="text-black font-weight-bold">P 7232.00</p>
-                        <span><img src="images/heart.png" alt="" width="20px" height="20px"> 254 people liked this</span>
+                <a href="#ex4" rel="modal:open">
+                    <div class="card">
+                        <img class="card-img-top" src="images/smartphone.png" alt="Card smartphone">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Smart Phone
+                            </p>
+                            <!-- <p class="violet font-weight-bold">21% off</p> -->
+                            <p class="text-black font-weight-bold">P 7232.00</p>
+                            <span><img src="images/heart.png" alt="" width="20px" height="20px"> 254 people liked this</span>
+                        </div>
                     </div>
-                </div>
                 </a>
             </div>
         </div>
     </div>
 
 
-   <div class="content" style="background-color: #8711AF; margin-top: 40px;">
+    <div class="content" style="background-color: #8711AF; margin-top: 40px;">
         <div class="container">
             <span style="margin-top: 50px">
             <br> </span>
             <div class="row">
-            <div class="col-6 deals">
-            <h6 style="color: white;"><i class="fa fa-star""></i> &nbsp Get recomendations, deals, tips, updates,</h6>
-                <h6 style="color: white;"> &nbsp &nbsp promotions and more.</h6>               
+                <div class="col-6 deals">
+                    <h6 style="color: white;"><i class="fa fa-star" "></i> &nbsp Get recomendations, deals, tips, updates,</h6>
+                <h6 style="color: white; "> &nbsp &nbsp promotions and more.</h6>               
             </div>
-        <div class="col-6 deals">
-            <div class="container">
+        <div class="col-6 deals ">
+            <div class="container ">
     
-        <div class="d-table-cell w-100">
-            <input class="form-control">
+        <div class="d-table-cell w-100 ">
+            <input class="form-control ">
         </div>
-        <div class="d-table-cell align-middle">
-            <button class="btn btnfooter" >Sign Up</button>
+        <div class="d-table-cell align-middle ">
+            <button class="btn btnfooter " >Sign Up</button>
         </div>
             </div>
     
@@ -326,136 +325,133 @@
     </div>
     </div>
 
-     <div class="content">
-    <div class="container" style="padding-top: 20px; padding-bottom: 10px;">
-         <div class="row">
-        <div class="col-xs-6 col-sm-4 col-md-2" style="margin-right: 760px">
-            <img src="images/logo.png">
+     <div class="content ">
+    <div class="container " style="padding-top: 20px; padding-bottom: 10px; ">
+         <div class="row ">
+        <div class="col-xs-6 col-sm-4 col-md-2 " style="margin-right: 760px ">
+            <img src="images/logo.png ">
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-            <i class="fa fa-circle""></i>
+        <div class="col-xs-6 col-sm-4 col-md-2 ">
+            <i class="fa fa-circle ""></i>
+                        &nbsp&nbsp&nbsp&nbsp
+                        <i class="fa fa-circle" "></i>
             &nbsp&nbsp&nbsp&nbsp
-            <i class="fa fa-circle""></i>
-            &nbsp&nbsp&nbsp&nbsp
-            <i class="fa fa-circle""></i>
-        </div>
+            <i class="fa fa-circle ""></i>
+                </div>
 
-    </div>
-    </div>
-    </div>
-
-       <div class="content">
-    <div class="container" style="padding-top: 5px; padding-bottom: 5px;">
-         <div class="row">
-        <div class="col-xs-5 col-sm-2">
-            <p>&copy; Pick & Pay 2018. All Rights Reserved.</p> 
-        </div>
-        <div class="col-xs-3 col-sm-2">
-            <p>About Pick & Pay</p>
-        </div>
-        <div class="col-xs-3 col-sm-2">
-            <p>Contact Us</p>
-        </div>
-        <div class="col-xs-3 col-sm-2">
-            <p>FAQs</p>
-        </div>
-         <div class="col-xs-3 col-sm-2">
-            <p>Terms & Condition</p>
-        </div>
-         <div class="col-xs-3 col-sm-2">
-            <p>Privacy Policy</p>
-        </div>
-
-    </div>
-    </div>
-    </div>
-
-
-        <div id="ex1" class="modal">
-        <div class="row">
-        <div class="col-6">
-        <img src="/images/headphone1.png" alt="" class="img-fluid">
-        </div>
-        <div class="col-6">
-        <h2>headphone1</h2>
-        <p>dsadsadsa</p>
-        <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
-        <br>
-        Quantity: + <input type="text" class="headphone1" value='1'> -
-        <p>P 235</p>
-        <button data-price="235" data-name='headphone1' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
-
-        <hr>
-        <p>dsadsada</p>
-        <p>dasdasdsadasdas</p>
-                    </div>
             </div>
         </div>
-        <div id="ex2" class="modal">
+    </div>
+
+    <div class="content">
+        <div class="container" style="padding-top: 5px; padding-bottom: 5px;">
+            <div class="row">
+                <div class="col-xs-5 col-sm-2">
+                    <p>&copy; Pick & Pay 2018. All Rights Reserved.</p>
+                </div>
+                <div class="col-xs-3 col-sm-2">
+                    <p>About Pick & Pay</p>
+                </div>
+                <div class="col-xs-3 col-sm-2">
+                    <p>Contact Us</p>
+                </div>
+                <div class="col-xs-3 col-sm-2">
+                    <p>FAQs</p>
+                </div>
+                <div class="col-xs-3 col-sm-2">
+                    <p>Terms & Condition</p>
+                </div>
+                <div class="col-xs-3 col-sm-2">
+                    <p>Privacy Policy</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="ex1" class="modal">
         <div class="row">
             <div class="col-6">
-        <img src="images/slingbag1.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-6">
-        <h2>slingbag1</h2>
-        <p>dsadsadsa</p>
-        <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
-        <br>
-        Quantity: + <input type="text" class="slingbag1" value='1'> -
-        <p>P 230</p>
-        <button data-price="230" data-name='slingbag1' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
+                <img src="/images/headphone1.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6">
+                <h2>headphone1</h2>
+                <p>dsadsadsa</p>
+                <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
+                <br> Quantity: + <input type="text" class="headphone1" value='1'> -
+                <p>P 235</p>
+                <button data-price="235" data-name='headphone1' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
 
-        <hr>
-        <p>dsadsada</p>
-        <p>dasdasdsadasdas</p>
-                </div>
+                <hr>
+                <p>dsadsada</p>
+                <p>dasdasdsadasdas</p>
+            </div>
         </div>
-        </div>
-        <div id="ex3" class="modal">
+    </div>
+    <div id="ex2" class="modal">
         <div class="row">
             <div class="col-6">
-        <img src="images/camera2.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-6">
-        <h2>camera2</h2>
-        <p>dsadsadsa</p>
-        <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
-        <br>
-        Quantity: + <input type="text" class="camera2" value='1'> -
-        <p>P 225</p>
-        <button data-price="225" data-name='camera2' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
+                <img src="images/slingbag1.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6">
+                <h2>slingbag1</h2>
+                <p>dsadsadsa</p>
+                <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
+                <br> Quantity: + <input type="text" class="slingbag1" value='1'> -
+                <p>P 230</p>
+                <button data-price="230" data-name='slingbag1' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
 
-        <hr>
-        <p>dsadsada</p>
-        <p>dasdasdsadasdas</p>
-                </div>
+                <hr>
+                <p>dsadsada</p>
+                <p>dasdasdsadasdas</p>
+            </div>
         </div>
-        </div>
-        <div id="ex4" class="modal">
+    </div>
+    <div id="ex3" class="modal">
         <div class="row">
             <div class="col-6">
-        <img src="images/smartphone.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-6">
-        <h2>smartphone</h2>
-        <p>dsadsadsa</p>
-        <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
-        <br>
-        Quantity: + <input type="text" class="smartphone" value='1'> -
-        <p>P 205</p>
-        <button data-price="205" data-name='smartphone' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
+                <img src="images/camera2.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6">
+                <h2>camera2</h2>
+                <p>dsadsadsa</p>
+                <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
+                <br> Quantity: + <input type="text" class="camera2" value='1'> -
+                <p>P 225</p>
+                <button data-price="225" data-name='camera2' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
 
-        <hr>
-        <p>dsadsada</p>
-        <p>dasdasdsadasdas</p>
-                </div>
+                <hr>
+                <p>dsadsada</p>
+                <p>dasdasdsadasdas</p>
+            </div>
         </div>
-        </div>
+    </div>
+    <div id="ex4" class="modal">
+        <div class="row">
+            <div class="col-6">
+                <img src="images/smartphone.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6">
+                <h2>smartphone</h2>
+                <p>dsadsadsa</p>
+                <p>dsadsadsa dsa dsa dsa dsa dsa dsa das das dsa das dasdsa dsa dsa </p>
+                <br> Quantity: + <input type="text" class="smartphone" value='1'> -
+                <p>P 205</p>
+                <button data-price="205" data-name='smartphone' class="addtocart">Add to cart</button> like this product <img src="images/heart.png" alt="" width="20px" height="20px"> 124
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-<script src="scripts/script.js"></script>
+                <hr>
+                <p>dsadsada</p>
+                <p>dasdasdsadasdas</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>
